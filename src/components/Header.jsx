@@ -8,7 +8,7 @@ function Header() {
         <Link to="/">
           <Img src={logo} alt="로고" />
         </Link>
-        <Link to="/upldpage">사진등록</Link>
+        <Link to="/upload">사진등록</Link>
         <Link to="/mypage">내 일기장</Link>
       </Cell>
     </Container>

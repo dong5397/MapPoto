@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <HeroContainer>
       <HeroContent>
-        <HeroButton onClick={handleButtonClick}>상세 페이지로 이동</HeroButton>
+        <HeroButton onClick={handleButtonClick}>사진 저장함</HeroButton>
       </HeroContent>
     </HeroContainer>
   );
