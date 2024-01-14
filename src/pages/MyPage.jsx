@@ -27,7 +27,7 @@ function MyPage() {
       {photos.map((photo) => (
         <Image
           key={photo.id}
-          src={`http://localhost:5000${photo.url}`}
+          src={photo.url} // URL이 완전한 형태로 저장되어 있다고 가정
           alt="사진"
         />
       ))}
